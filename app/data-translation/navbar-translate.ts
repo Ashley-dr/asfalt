@@ -1,0 +1,28 @@
+export const translations = {
+  EN: {
+    services: "Services",
+    about: "About",
+    careers: "Careers",
+    projects: "Projects",
+    reviews: "Reviews",
+    asphalting: "Asphalting",
+    roadMaintenance: "Road Maintenance",
+    transport: "Transport",
+    machineRental: "Machine Rental & Staffing",
+    consulting: "Consulting",
+    winter: "Winter Services",
+  },
+  NO: {
+    services: "Tjenester",
+    about: "Om oss",
+    careers: "Karriere",
+    projects: "Prosjekter",
+    reviews: "Anmeldelser",
+    asphalting: "Asfaltering",
+    roadMaintenance: "Vedlikehold av veier",
+    transport: "Transport",
+    machineRental: "Maskinutleie & Bemanning",
+    consulting: "Rådgivning",
+    winter: "Vintertjenester",
+  },
+};
