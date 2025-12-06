@@ -28,15 +28,6 @@ Det er tydelig at dette er et selskap som er stolt av sitt arbeid. Ser ut til å
     date: "a month ago",
     star: 5,
   },
-  {
-    textEN:
-      "We are very satisfied with the work that was done on our driveway. We experienced Asfaltspesialisten AS as a very professional operator. The work was done accurately, and with an eye for details that enhances the overall impression. They also made sure to clean up after themselves. Recommended!",
-    textNO:
-      "Vi er veldig fornøyd med arbeidet som ble utført på vår innkjørsel. Vi opplevde Asfaltspesialisten AS som en veldig profesjonell aktør. Arbeidet ble utført nøyaktig, med et øye for detaljer som forbedrer helhetsinntrykket. De sørget også for å rydde opp etter seg. Anbefales!",
-    reviewer: "Egil Bjerkan",
-    date: "a month ago",
-    star: 4,
-  },
 
   {
     textEN:
@@ -73,5 +64,14 @@ Det er tydelig at dette er et selskap som er stolt av sitt arbeid. Ser ut til å
     reviewer: "Geir Lundberg",
     date: "a month ago",
     star: 5,
+  },
+  {
+    textEN:
+      "We are very satisfied with the work that was done on our driveway. We experienced Asfaltspesialisten AS as a very professional operator. The work was done accurately, and with an eye for details that enhances the overall impression. They also made sure to clean up after themselves. Recommended!",
+    textNO:
+      "Vi er veldig fornøyd med arbeidet som ble utført på vår innkjørsel. Vi opplevde Asfaltspesialisten AS som en veldig profesjonell aktør. Arbeidet ble utført nøyaktig, med et øye for detaljer som forbedrer helhetsinntrykket. De sørget også for å rydde opp etter seg. Anbefales!",
+    reviewer: "Egil Bjerkan",
+    date: "a month ago",
+    star: 4,
   },
 ];

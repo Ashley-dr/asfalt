@@ -62,12 +62,12 @@ export default function TopBar() {
       </div>
 
       <div className="flex gap-3 items-center mr-5">
-        <figure className="flex items-center gap-2 border rounded-sm ">
+        <figure className="flex items-center gap-2 border rounded-sm w-35 sm:w-max">
           <button
             onClick={() => setLang("NO")}
-            className={`flex items-center gap-2 px-2 md:py-1 transition-colors cursor-pointer duration-300 ${
+            className={`flex items-center gap-2 px-2 md:py-1 transition-colors cursor-pointer duration-300 text-xs ${
               lang === "NO"
-                ? "bg-[#005744] text-white font-bold"
+                ? "bg-[#005744] w-17 sm:w-max text-white  font-bold"
                 : "text-gray-300 hover:text-gray-100"
             }`}
           >
@@ -76,9 +76,9 @@ export default function TopBar() {
           <span>|</span>
           <button
             onClick={() => setLang("EN")}
-            className={`flex items-center gap-2 px-2 md:py-1  transition-colors cursor-pointer duration-300 ${
+            className={`flex items-center gap-2 px-2 md:py-1  transition-colors cursor-pointer duration-300 text-xs  ${
               lang === "EN"
-                ? "bg-[#005744] text-white font-bold"
+                ? "bg-[#005744] w-17 sm:w-max text-white font-bold"
                 : "text-gray-300 hover:text-gray-100"
             }`}
           >

@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <section id="contact" className={`py-24 bg-gray-100 ${murecho.className}`}>
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-12">
-        <div>
+        {/* <div>
           <h2 className="text-3xl font-bold mb-6 text-[#d6262a]">
             {lang === "EN" ? "Important Considerations" : "Viktige hensyn"}
           </h2>
@@ -40,6 +40,49 @@ export default function Contact() {
                 </div>
               </div>
             ))}
+          </div>
+        </div> */}
+        <div className=" bg-white/70 backdrop-blur-lg h-max shadow-xl rounded-2xl p-8 relative border border-white/40 before:absolute before:inset-0 before:rounded-2xl before:p-0.5 before:-z-10 transition-all">
+          <h3 className="text-2xl font-bold text-[#d6262a] mb-4">
+            {lang === "EN" ? "Price Request" : "Pristilbud"}
+          </h3>
+
+          <p className="text-gray-700 leading-relaxed mb-6">
+            {lang === "EN"
+              ? "Do you need a reliable company for asphalt paving or road work? Contact us for a no-obligation inspection."
+              : "Trenger du et pålitelig selskap for asfaltering eller veiarbeid? Kontakt oss for en uforpliktende befaring."}
+          </p>
+
+          <div className="space-y-3 text-gray-800">
+            <h4 className="font-semibold text-lg">Asfaltspesialisten AS</h4>
+
+            <p>Espenesveien 89, 9311 Brøstadbotn</p>
+
+            <p>
+              {lang === "EN"
+                ? "Corporate Registration Number: 923 662 308"
+                : "Organisasjonsnummer: 923 662 308"}
+            </p>
+
+            <div className="flex items-center gap-3 text-[#d6262a] text-lg font-semibold mt-4">
+              <span className="text-2xl">📞</span>
+              <a
+                href="tel:97944444"
+                className="text-gray-900 hover:text-[#d6262a]"
+              >
+                979 44 444
+              </a>
+            </div>
+
+            <div className="flex items-center gap-3 text-[#d6262a] text-lg font-semibold">
+              <span className="text-2xl">✉️</span>
+              <a
+                href="mailto:post@asfaltspesialisten.no"
+                className="text-gray-900 hover:text-[#d6262a]"
+              >
+                post@asfaltspesialisten.no
+              </a>
+            </div>
           </div>
         </div>
 
